@@ -29,8 +29,7 @@ bot.start((ctx) => {
     : "usuário sem nome de usuário";
   ctx.reply(
     `Olá ${username}! Vamos começar. Para iniciar, digite qualquer mensagem.`,
-    {
-        
+    {        
       reply_markup: {
         keyboard: [
           [
