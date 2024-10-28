@@ -50,7 +50,6 @@ bot.on(message("text"), async (ctx) => {
       "Sua mensagem foi enviada para um atendente. Ele vai entrar em contato assim que possivel."
     );
     atendimento[ctx.from.id] = false;
-    atendimentoAberto[ctx.from.id] = ctx.from;
     return;
   }
 
